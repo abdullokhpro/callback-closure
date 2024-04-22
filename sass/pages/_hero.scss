@@ -1,0 +1,72 @@
+.title {
+  text-align: center;
+  font-style: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 100px;
+  row-gap: 20px;
+  padding: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: rgb(28, 117, 251);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  &__input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  &__btn {
+    padding: 10px;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+.card {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    background-color: #1fa0f5;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    color: #fff;
+  }
+
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__img {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+  }
+
+  &__title {
+    font-size: 38px;
+    color: #1fa0f5;
+  }
+}
